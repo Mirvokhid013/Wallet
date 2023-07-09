@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap; 
+    src: url("./fonts/poppins-v20-latin-regular.woff2") format("woff2"),
+    url("./fonts/poppins-v20-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./fonts/poppins-v20-latin-600.woff2") format("woff2"),
+    url("./fonts/poppins-v20-latin-600.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/inter-v12-latin-regular.woff2") format("woff2"), 
+    url("./fonts/inter-v12-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./fonts/inter-v12-latin-700.woff2") format("woff2"),
+    url("./fonts/inter-v12-latin-700.woff") format("woff");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    height: 100%;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1355px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header site */
+
+.site-header {
+    padding-bottom: 122px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.header-nav-list-item-link {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.signup-link {
+    padding: 16px 32px;
+    border-radius: 48px;
+    background-color: #161616;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.hero-title-wrapper {
+    width: 810px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #000;
+    text-align: center;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105px;
+}
+
+.hero-form {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.hero-search-input {
+    display: block;
+    width: 450px;
+    padding: 26px 25px;
+    border-radius: 50px;
+    background: #F2F2F2;
+}
+
+.hero-search-input::after {
+    position: absolute;
+    background-image: url("./images/Iconly/solution.svg");
+    width: 24px;
+    height: 24px;
+    content: "";
+
+}
+
+.hero-search-input::placeholder {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
